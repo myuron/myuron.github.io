@@ -133,6 +133,42 @@ a:hover {
   text-underline-offset: 3px;
 }
 
+.pr-badge {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0.1rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  vertical-align: middle;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.pr-badge--open {
+  background: #238636;
+}
+
+.pr-badge--merged {
+  background: #8957e5;
+}
+
+.pr-badge--closed {
+  background: #cf222e;
+}
+
+.pr-badge--draft {
+  background: var(--text-muted);
+}
+
+.pr-badge--loading {
+  background: var(--border);
+  color: var(--text-muted);
+}
+
 footer {
   padding: 2rem 1.5rem;
   text-align: center;
